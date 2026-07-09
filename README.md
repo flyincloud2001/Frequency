@@ -1,0 +1,11 @@
+# Frequency
+- This is a project for Frequency analysis.
+- The goals include but are not limited to:
+  - Understanding how Frequency works for stock price trend detection.
+  - Applying Frequency-based strategies to analyze and trade stock prices.
+- The project is created and updated simultaneously on a local device and GitHub.
+- Reading the notes section is the main way to understand and replicate this project.
+- The project consists of three parts.
+  - The first part is notes, which organizes the thoughts that come up during the analysis.
+  - The second part is analysis, which includes any code and plots.
+  - The third part is data, which stores the data grabbed from any data sources.
