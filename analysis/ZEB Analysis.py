@@ -26,6 +26,8 @@ for i in percentages:
 for line in perfs:
     print(line)
 
+
+
 fig, ax = plt.subplots(figsize=(12, 5))
 ax.plot(data['change'], label='price change in %', linewidth=0.5)
 for x in higher_than_1_percent:
