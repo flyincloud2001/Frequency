@@ -8,8 +8,8 @@ END = '2026-06-30'
 SYMBOL = 'ZEB.TO'
 
 raw = yf.download(SYMBOL, start=START, end=END, auto_adjust=True)
-data = raw[['Close', 'Open']].copy()
-data['change'] = data['Open']/data['Close'].shift(1)
+data = raw[['Close', 'High']].copy()
+data['change'] = data['High']/data['Close'].shift(1)
 data.dropna(inplace=True)
 
 percentages = [1.005, 1.01, 1.015, 1.02, 1.025, 1.03]
