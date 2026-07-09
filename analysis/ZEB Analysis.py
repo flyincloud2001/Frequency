@@ -14,7 +14,10 @@ data.dropna(inplace=True)
 
 percentages = [1.005, 1.01, 1.015, 1.02, 1.025, 1.03]
 perfs = []
+perfs = []
 sizes = []
+sizes = []
+
 higher_than_1_percent = data[data['change'] >= 1.01].index
 print(len(higher_than_1_percent))
 
